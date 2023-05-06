@@ -28,6 +28,10 @@ function App() {
       <p className="read-the-docs">
         Click on the logos to learn more
       </p>
+{/* added buttons feature */}
+      <button onClick={() => setCount((count) => count + 1)}>
+          new button count feature {count}
+        </button>
     </>
   )
 }
