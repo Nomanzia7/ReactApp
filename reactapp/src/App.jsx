@@ -32,6 +32,24 @@ function App() {
       <button onClick={() => setCount((count) => count + 1)}>
           new button count feature {count}
         </button>
+
+        {/* Custom UI */}
+        <h1>Custom Data </h1>
+      <div className="card">
+        <button onClick={() => setCount((count) => count + 1)}>
+          count is {count}
+        </button>
+        <p>
+         Just a test
+        </p>
+      </div>
+      <p className="read-the-docs">
+        Click on the logos to learn more
+      </p>
+{/* added buttons feature */}
+      <button onClick={() => setCount((count) => count + 1)}>
+         Button 2 Feature for count {count}
+        </button>
     </>
   )
 }
